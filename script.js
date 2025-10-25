@@ -37,5 +37,5 @@ for(let x = 0; x < count; x++){
         ex = true
     }
 }
-const ans = `Number of words: ${count}<br>String with replaced word: ${replacedS}<br>Existence of the given word in a string: ${ex}`
+const ans = `Real String: ${s}<br>Number of words: ${count}<br>String with replaced word: ${replacedS}<br>Existence of the given word in a string: ${ex}`
 document.getElementById("text").innerHTML = ans
